@@ -1,0 +1,5 @@
+1. Run is_LoadIntanData_Chan.m to process raw data
+2. Run PulvOpto_LFP to get plots for LFP and spec by channel
+3. Visually inspect the above plots to select valid channels, update keepChn.m
+4. Run AH_preprocessLFP, input: lfpMat.mat; output: lfpDenoised.mat, lfpValid.mat, validChn.mat (all under Preprocessed folder)
+5. Run PulvOpto_PSTH to get raster and PSTH for MUA for each opto condition (by channel and avg) -- This can show clearly if there is opto effect (i.e. modulation of FR)
